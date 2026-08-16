@@ -1,0 +1,6 @@
+{
+  "name": "Haveens Company",
+  "description": "Haveens Company - Comprehensive Kenyan marketplace for Mattresses, Bedding, Apparel, Footwear, Electronics, Home & Kitchen, and Hardware with instant M-PESA STK Push, Supabase authentication, driver dispatch tracking, and countywide delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

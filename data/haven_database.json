@@ -1,0 +1,671 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-2",
+      "name": "Cliff Nyambagera",
+      "email": "nyambageracliff@gmail.com",
+      "phone": "+254712345678",
+      "role": "admin",
+      "passwordHash": "$2b$10$yn2PdzUi/xqWzF7OL7bpxOlsmojkiI37PWU.pItTWtsjar7v5ZTV.",
+      "createdAt": "2026-08-16T13:15:57.607Z"
+    }
+  ],
+  "products": [],
+  "categories": [
+    {
+      "id": "cat-pocket-spring",
+      "name": "Pocket Spring & Hybrid",
+      "slug": "pocket-spring-hybrid",
+      "department": "mattresses",
+      "description": "Zero motion-transfer pocket spring coils paired with plush comfort layers for hotel-grade luxury sleep.",
+      "image": "https://images.unsplash.com/photo-1540518614846-7ede433c4550?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 3
+    },
+    {
+      "id": "cat-memory-foam",
+      "name": "Memory Foam Mattresses",
+      "slug": "memory-foam",
+      "department": "mattresses",
+      "description": "Cooling gel and contouring visco-elastic memory foam that relieves pressure points and molds to your body shape.",
+      "image": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 4
+    },
+    {
+      "id": "cat-budget-foam",
+      "name": "Budget & Everyday Foam",
+      "slug": "budget-mattresses",
+      "department": "mattresses",
+      "description": "Affordable, quality quilted and medium-density mattresses for guest rooms, rentals, and budget-conscious buyers.",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 5
+    },
+    {
+      "id": "cat-accessories",
+      "name": "Bedding & Accessories",
+      "slug": "bedding-accessories",
+      "department": "accessories",
+      "description": "Waterproof bamboo mattress protectors, contour ergonomic memory pillows, 5-star hotel duvets, and Egyptian cotton sheets.",
+      "image": "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 6
+    },
+    {
+      "id": "cat-bed-frames",
+      "name": "Solid Wood & Platform Beds",
+      "slug": "bed-frames",
+      "department": "furniture",
+      "description": "Artisan handcrafted solid mahogany & teak platform beds, modern slat frames with maximum load capacity.",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 7
+    },
+    {
+      "id": "cat-upholstered-beds",
+      "name": "Upholstered & Velvet Beds",
+      "slug": "upholstered-beds",
+      "department": "furniture",
+      "description": "Chesterfield diamond tufted velvet beds, padded headboards, and luxury hydraulic storage beds.",
+      "image": "https://images.unsplash.com/photo-1540518614846-7ede433c4550?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 8
+    },
+    {
+      "id": "cat-bedroom-furniture",
+      "name": "Nightstands, Vanities & Sofas",
+      "slug": "bedroom-furniture",
+      "department": "furniture",
+      "description": "Solid wood 2-drawer nightstands, LED vanity dressing tables, futon sofa beds, and tufted storage ottomans.",
+      "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80",
+      "displayOrder": 9
+    }
+  ],
+  "suppliers": [],
+  "orders": [
+    {
+      "id": "ord-1786890714560",
+      "orderNumber": "ORD-2026-000106",
+      "isGuest": true,
+      "customerName": "Cliffe nyambagera nyangwono",
+      "phone": "0742967083",
+      "email": "nyambageracliff@gmail.com",
+      "county": "Nakuru",
+      "town": "NAKURU",
+      "area": "NAKURU",
+      "deliveryAddress": "NAKURU",
+      "landmark": "",
+      "deliveryNotes": "",
+      "deliveryType": "delivery",
+      "items": [
+        {
+          "id": "item-1786890714560-njk2",
+          "productId": "prod-haveens-coolgel-memory",
+          "productName": "Haveens CloudRest Cooling Gel Memory Foam Mattress",
+          "productImage": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80",
+          "brand": "Haveens Company",
+          "variantId": "v-h1",
+          "sizeLabel": "4x6 (Double 8-Inch)",
+          "thicknessInches": 8,
+          "quantity": 1,
+          "unitPrice": 23500,
+          "supplierPrice": 16000,
+          "lineTotal": 23500,
+          "lineSupplierCost": 16000,
+          "lineProfit": 7500
+        }
+      ],
+      "subtotal": 23500,
+      "discount": 0,
+      "deliveryFee": 2500,
+      "total": 26000,
+      "paymentMethod": "mpesa",
+      "paymentStatus": "paid",
+      "orderStatus": "payment_received",
+      "supplierStatus": "not_contacted",
+      "supplierId": "",
+      "supplierPurchaseCost": 16000,
+      "totalSupplierCost": 16000,
+      "estimatedProfit": 7500,
+      "trackingHistory": [
+        {
+          "status": "pending_payment",
+          "label": "Order Placed",
+          "description": "Order ORD-2026-000106 created. Awaiting M-Pesa payment.",
+          "timestamp": "2026-08-16T14:31:54.560Z",
+          "actor": "Customer"
+        },
+        {
+          "status": "payment_received",
+          "label": "Payment Approved by Admin",
+          "description": "Manual payment approval & M-PESA confirmation by admin",
+          "timestamp": "2026-08-16T14:49:09.910Z",
+          "actor": "Cliff Nyambagera (admin)"
+        }
+      ],
+      "createdAt": "2026-08-16T14:31:54.560Z",
+      "updatedAt": "2026-08-16T14:49:09.910Z",
+      "paymentTransactionRef": "QJH168957"
+    },
+    {
+      "id": "ord-1786888858650",
+      "orderNumber": "ORD-2026-000105",
+      "isGuest": true,
+      "customerName": "Cliffe nyambagera nyangwono",
+      "phone": "0742967083",
+      "email": "nyambageracliff@gmail.com",
+      "county": "Nakuru",
+      "town": "Nakuru CBD",
+      "area": "Kenyatta avenue",
+      "deliveryAddress": "Kenyatta avenue",
+      "landmark": "",
+      "deliveryNotes": "",
+      "deliveryType": "delivery",
+      "items": [
+        {
+          "id": "item-1786888858650-r0n5",
+          "productId": "prod-haveens-egyptian-sheets",
+          "productName": "Haveens 400TC 100% Egyptian Cotton 4-Piece Bed Sheet Set",
+          "productImage": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80",
+          "brand": "Haveens Company",
+          "variantId": "v-sheet-4x6",
+          "sizeLabel": "4x6 (Double Set - White)",
+          "thicknessInches": 0,
+          "quantity": 1,
+          "unitPrice": 4200,
+          "supplierPrice": 2600,
+          "lineTotal": 4200,
+          "lineSupplierCost": 2600,
+          "lineProfit": 1600
+        }
+      ],
+      "subtotal": 4200,
+      "discount": 0,
+      "deliveryFee": 2500,
+      "total": 6700,
+      "paymentMethod": "mpesa",
+      "paymentStatus": "paid",
+      "orderStatus": "payment_received",
+      "supplierStatus": "not_contacted",
+      "supplierId": "",
+      "supplierPurchaseCost": 2600,
+      "totalSupplierCost": 2600,
+      "estimatedProfit": 1600,
+      "trackingHistory": [
+        {
+          "status": "pending_payment",
+          "label": "Order Placed",
+          "description": "Order ORD-2026-000105 created. Awaiting M-Pesa payment.",
+          "timestamp": "2026-08-16T14:00:58.650Z",
+          "actor": "Customer"
+        },
+        {
+          "status": "payment_received",
+          "label": "Payment Approved by Admin",
+          "description": "Manual payment approval & M-PESA confirmation by admin",
+          "timestamp": "2026-08-16T14:49:15.527Z",
+          "actor": "Cliff Nyambagera (admin)"
+        }
+      ],
+      "createdAt": "2026-08-16T14:00:58.650Z",
+      "updatedAt": "2026-08-16T14:49:15.527Z",
+      "paymentTransactionRef": "QJH736687"
+    },
+    {
+      "id": "ord-1786888338405",
+      "orderNumber": "ORD-2026-000104",
+      "isGuest": true,
+      "customerName": "Cliff Nyambagera",
+      "phone": "+254712345678",
+      "email": "admin@haveenscompany.co.ke",
+      "county": "Nairobi",
+      "town": "Nairobi",
+      "area": "Kenyataa avenue",
+      "deliveryAddress": "Kenyataa avenue",
+      "landmark": "",
+      "deliveryNotes": "",
+      "deliveryType": "delivery",
+      "items": [
+        {
+          "id": "item-1786888338405-fz4b",
+          "productId": "prod-ortho-rest-5x6-8",
+          "productName": "Dr. Mattress Orthopedic Spine Align High Density Foam",
+          "productImage": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80",
+          "brand": "Dr. Mattress",
+          "variantId": "v-1",
+          "sizeLabel": "3x6 (Single)",
+          "thicknessInches": 6,
+          "quantity": 1,
+          "unitPrice": 14500,
+          "supplierPrice": 9500,
+          "lineTotal": 14500,
+          "lineSupplierCost": 9500,
+          "lineProfit": 5000
+        }
+      ],
+      "subtotal": 14500,
+      "discount": 0,
+      "deliveryFee": 1000,
+      "total": 15500,
+      "paymentMethod": "mpesa",
+      "paymentStatus": "paid",
+      "orderStatus": "payment_received",
+      "supplierStatus": "not_contacted",
+      "supplierId": "",
+      "supplierPurchaseCost": 9500,
+      "totalSupplierCost": 9500,
+      "estimatedProfit": 5000,
+      "trackingHistory": [
+        {
+          "status": "pending_payment",
+          "label": "Order Placed",
+          "description": "Order ORD-2026-000104 created. Awaiting M-Pesa payment.",
+          "timestamp": "2026-08-16T13:52:18.405Z",
+          "actor": "Customer"
+        },
+        {
+          "status": "payment_received",
+          "label": "Payment Approved by Admin",
+          "description": "Manual payment approval & M-PESA confirmation by admin",
+          "timestamp": "2026-08-16T14:49:21.213Z",
+          "actor": "Cliff Nyambagera (admin)"
+        }
+      ],
+      "createdAt": "2026-08-16T13:52:18.405Z",
+      "updatedAt": "2026-08-16T14:49:21.213Z",
+      "paymentTransactionRef": "QJH317779"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-1786890714560-6gth",
+      "orderId": "ord-1786890714560",
+      "orderNumber": "ORD-2026-000106",
+      "amount": 26000,
+      "phone": "0742967083",
+      "method": "mpesa",
+      "status": "paid",
+      "checkoutRequestId": "ws_CO_1786890714560_r9q1ka",
+      "merchantRequestId": "MR-4492-4560",
+      "createdAt": "2026-08-16T14:31:54.560Z",
+      "mpesaReceiptNumber": "QJH168957",
+      "resultCode": 0,
+      "resultDesc": "Payment confirmed and approved by administrator.",
+      "completedAt": "2026-08-16T14:49:09.910Z"
+    },
+    {
+      "id": "pay-1786888858650-3knp",
+      "orderId": "ord-1786888858650",
+      "orderNumber": "ORD-2026-000105",
+      "amount": 6700,
+      "phone": "0742967083",
+      "method": "mpesa",
+      "status": "paid",
+      "checkoutRequestId": "ws_CO_1786888858650_7k2v9z",
+      "merchantRequestId": "MR-1082-8650",
+      "createdAt": "2026-08-16T14:00:58.650Z",
+      "mpesaReceiptNumber": "QJH736687",
+      "resultCode": 0,
+      "resultDesc": "Payment confirmed and approved by administrator.",
+      "completedAt": "2026-08-16T14:49:15.527Z"
+    },
+    {
+      "id": "pay-1786888345220-5dwb",
+      "orderId": "ord-1786888338405",
+      "orderNumber": "ORD-2026-000104",
+      "amount": 15500,
+      "phone": "254712345678",
+      "method": "mpesa",
+      "status": "paid",
+      "checkoutRequestId": "ws_CO_1786888345220_y2rltt",
+      "merchantRequestId": "MR-2898-5220",
+      "createdAt": "2026-08-16T13:52:25.220Z",
+      "mpesaReceiptNumber": "QJH317779",
+      "resultCode": 0,
+      "resultDesc": "Payment confirmed and approved by administrator.",
+      "completedAt": "2026-08-16T14:49:21.213Z"
+    }
+  ],
+  "deliveryZones": [
+    {
+      "id": "zone-nairobi",
+      "county": "Nairobi",
+      "towns": [
+        "Westlands",
+        "Kilimani",
+        "Kileleshwa",
+        "Lavington",
+        "Karen",
+        "Roysambu",
+        "Kasarani",
+        "CBD",
+        "South B / C",
+        "Langata",
+        "Embakasi",
+        "Donholm",
+        "Parklands"
+      ],
+      "baseFee": 1000,
+      "estimatedDays": "Same Day / Next Day (24 hrs)",
+      "freeDeliveryThreshold": 35000,
+      "active": true
+    },
+    {
+      "id": "zone-kiambu",
+      "county": "Kiambu",
+      "towns": [
+        "Ruiru",
+        "Thika",
+        "Kiambu Town",
+        "Ruaka",
+        "Kikuyu",
+        "Limuru",
+        "Juja",
+        "Kahawa Sukari",
+        "Banana"
+      ],
+      "baseFee": 1500,
+      "estimatedDays": "1 - 2 Business Days",
+      "freeDeliveryThreshold": 45000,
+      "active": true
+    },
+    {
+      "id": "zone-machakos",
+      "county": "Machakos",
+      "towns": [
+        "Athi River",
+        "Syokimau",
+        "Mlolongo",
+        "Machakos Town",
+        "Tala",
+        "Kangundo"
+      ],
+      "baseFee": 1800,
+      "estimatedDays": "1 - 2 Business Days",
+      "freeDeliveryThreshold": 50000,
+      "active": true
+    },
+    {
+      "id": "zone-kajiado",
+      "county": "Kajiado",
+      "towns": [
+        "Kitengela",
+        "Ongata Rongai",
+        "Ngong",
+        "Kiserian",
+        "Kajiado Town"
+      ],
+      "baseFee": 1800,
+      "estimatedDays": "1 - 2 Business Days",
+      "freeDeliveryThreshold": 50000,
+      "active": true
+    },
+    {
+      "id": "zone-nakuru",
+      "county": "Nakuru",
+      "towns": [
+        "Nakuru City",
+        "Naivasha",
+        "Gilgil",
+        "Molo",
+        "Njoro"
+      ],
+      "baseFee": 2500,
+      "estimatedDays": "2 - 3 Business Days",
+      "freeDeliveryThreshold": 65000,
+      "active": true
+    },
+    {
+      "id": "zone-mombasa",
+      "county": "Mombasa & Coast",
+      "towns": [
+        "Mombasa CBD",
+        "Nyali",
+        "Bamburi",
+        "Mtwapa",
+        "Diani",
+        "Kilifi"
+      ],
+      "baseFee": 3500,
+      "estimatedDays": "2 - 4 Business Days",
+      "freeDeliveryThreshold": 80000,
+      "active": true
+    },
+    {
+      "id": "zone-kisumu",
+      "county": "Kisumu & Western",
+      "towns": [
+        "Kisumu City",
+        "Kakamega",
+        "Eldoret",
+        "Kitale",
+        "Bungoma",
+        "Kisii"
+      ],
+      "baseFee": 3500,
+      "estimatedDays": "2 - 4 Business Days",
+      "freeDeliveryThreshold": 80000,
+      "active": true
+    }
+  ],
+  "reviews": [],
+  "wishlists": [],
+  "coupons": [],
+  "drivers": [],
+  "notifications": [
+    {
+      "id": "notif-1786891761214-psya",
+      "orderId": "ord-1786888338405",
+      "orderNumber": "ORD-2026-000104",
+      "recipient": "+254712345678",
+      "channel": "sms",
+      "title": "Payment Confirmed",
+      "message": "Dear Cliff Nyambagera, your payment of KSh 15,500 (Ref: QJH317779) for Order ORD-2026-000104 is confirmed. Haveens is processing your delivery!",
+      "status": "delivered",
+      "createdAt": "2026-08-16T14:49:21.214Z"
+    },
+    {
+      "id": "notif-1786891755528-wlv6",
+      "orderId": "ord-1786888858650",
+      "orderNumber": "ORD-2026-000105",
+      "recipient": "0742967083",
+      "channel": "sms",
+      "title": "Payment Confirmed",
+      "message": "Dear Cliffe nyambagera nyangwono, your payment of KSh 6,700 (Ref: QJH736687) for Order ORD-2026-000105 is confirmed. Haveens is processing your delivery!",
+      "status": "delivered",
+      "createdAt": "2026-08-16T14:49:15.528Z"
+    },
+    {
+      "id": "notif-1786891749915-42qu",
+      "orderId": "ord-1786890714560",
+      "orderNumber": "ORD-2026-000106",
+      "recipient": "0742967083",
+      "channel": "sms",
+      "title": "Payment Confirmed",
+      "message": "Dear Cliffe nyambagera nyangwono, your payment of KSh 26,000 (Ref: QJH168957) for Order ORD-2026-000106 is confirmed. Haveens is processing your delivery!",
+      "status": "delivered",
+      "createdAt": "2026-08-16T14:49:09.915Z"
+    },
+    {
+      "id": "notif-1786890714567-8n5c",
+      "orderId": "ord-1786890714560",
+      "orderNumber": "ORD-2026-000106",
+      "recipient": "0742967083",
+      "channel": "sms",
+      "title": "Order Received",
+      "message": "Dear Cliffe nyambagera nyangwono, your order ORD-2026-000106 (Total: KSh 26,000) has been received. Please complete payment via M-Pesa prompt.",
+      "status": "delivered",
+      "createdAt": "2026-08-16T14:31:54.567Z"
+    },
+    {
+      "id": "notif-1786888858651-mpnv",
+      "orderId": "ord-1786888858650",
+      "orderNumber": "ORD-2026-000105",
+      "recipient": "0742967083",
+      "channel": "sms",
+      "title": "Order Received",
+      "message": "Dear Cliffe nyambagera nyangwono, your order ORD-2026-000105 (Total: KSh 6,700) has been received. Please complete payment via M-Pesa prompt.",
+      "status": "delivered",
+      "createdAt": "2026-08-16T14:00:58.651Z"
+    },
+    {
+      "id": "notif-1786888338426-aibv",
+      "orderId": "ord-1786888338405",
+      "orderNumber": "ORD-2026-000104",
+      "recipient": "+254712345678",
+      "channel": "sms",
+      "title": "Order Received",
+      "message": "Dear Cliff Nyambagera, your order ORD-2026-000104 (Total: KSh 15,500) has been received. Please complete payment via M-Pesa prompt.",
+      "status": "delivered",
+      "createdAt": "2026-08-16T13:52:18.426Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "log-1786891859096-5e20",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Haveens Multi-Position Reclining Sofa Bed (Futon Couch)",
+      "createdAt": "2026-08-16T14:50:59.096Z"
+    },
+    {
+      "id": "log-1786891856796-utl9",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Haveens 2-Drawer Scandinavian Hardwood Bedside Nightstand",
+      "createdAt": "2026-08-16T14:50:56.796Z"
+    },
+    {
+      "id": "log-1786891854669-6ntr",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Haveens Modern Hydraulic Gas-Lift Underbed Storage Frame",
+      "createdAt": "2026-08-16T14:50:54.669Z"
+    },
+    {
+      "id": "log-1786891852410-1ppu",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Haveens Royal Chesterfield Diamond Tufted Velvet Bed",
+      "createdAt": "2026-08-16T14:50:52.410Z"
+    },
+    {
+      "id": "log-1786891849855-5e9i",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Haveens Artisan Solid Hardwood Platform Bed Frame",
+      "createdAt": "2026-08-16T14:50:49.855Z"
+    },
+    {
+      "id": "log-1786891847061-tpht",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Haveens 2-Inch High Resilience Cooling Gel Mattress Topper",
+      "createdAt": "2026-08-16T14:50:47.061Z"
+    },
+    {
+      "id": "log-1786891844824-4bt8",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Haveens 400TC 100% Egyptian Cotton 4-Piece Bed Sheet Set",
+      "createdAt": "2026-08-16T14:50:44.824Z"
+    },
+    {
+      "id": "log-1786891842172-i5ij",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Haveens Orthopedic Cervical Contour Memory Foam Pillow",
+      "createdAt": "2026-08-16T14:50:42.172Z"
+    },
+    {
+      "id": "log-1786891839767-5ji8",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Haveens 100% Waterproof Bamboo Quilted Mattress Protector",
+      "createdAt": "2026-08-16T14:50:39.767Z"
+    },
+    {
+      "id": "log-1786891836380-qw6c",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Superfoam Premier Standard Foam Mattress",
+      "createdAt": "2026-08-16T14:50:36.380Z"
+    },
+    {
+      "id": "log-1786891834065-wic1",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_PRODUCT",
+      "details": "Deleted product: Haveens CloudRest Cooling Gel Memory Foam Mattress",
+      "createdAt": "2026-08-16T14:50:34.065Z"
+    },
+    {
+      "id": "log-1786891783393-dl6v",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "DELETE_CUSTOMER",
+      "details": "Deleted user account: admin@haveenscompany.co.ke (Cliff Nyambagera)",
+      "createdAt": "2026-08-16T14:49:43.393Z"
+    },
+    {
+      "id": "log-1786891761215-jdoy",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "APPROVE_PAYMENT",
+      "details": "Approved payment of KSh 15500 for Order ORD-2026-000104 (Ref: QJH317779)",
+      "createdAt": "2026-08-16T14:49:21.215Z"
+    },
+    {
+      "id": "log-1786891755529-s9at",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "APPROVE_PAYMENT",
+      "details": "Approved payment of KSh 6700 for Order ORD-2026-000105 (Ref: QJH736687)",
+      "createdAt": "2026-08-16T14:49:15.529Z"
+    },
+    {
+      "id": "log-1786891749916-fcj1",
+      "userId": "usr-admin-2",
+      "userName": "Cliff Nyambagera",
+      "action": "APPROVE_PAYMENT",
+      "details": "Approved payment of KSh 26000 for Order ORD-2026-000106 (Ref: QJH168957)",
+      "createdAt": "2026-08-16T14:49:09.916Z"
+    }
+  ],
+  "settings": {
+    "businessName": "Haveens Company",
+    "tagline": "Premium Mattresses, Bedding Accessories & Handcrafted Furniture Kenya",
+    "logoUrl": "",
+    "phone": "+254 742 967 083",
+    "phoneAlternative": "+254 116 822 231",
+    "email": "hello@haveenscompany.co.ke",
+    "whatsapp": "+254116822231",
+    "physicalAddress": "Haveens Hub, Nakuru 20100, Kenya",
+    "currency": "KES",
+    "currencySymbol": "KSh",
+    "pickupEnabled": true,
+    "pickupAddress": "Haveens Hub, Nakuru 20100",
+    "taxPercentage": 0,
+    "freeDeliveryDefaultThreshold": 60000,
+    "allowGuestCheckout": true,
+    "mpesa": {
+      "environment": "sandbox",
+      "shortcode": "174379",
+      "tillNumber": "889900",
+      "paybillNumber": "522522",
+      "passkeyConfigured": true,
+      "consumerKeyConfigured": true
+    },
+    "notifications": {
+      "smsEnabled": true,
+      "whatsappEnabled": true,
+      "emailEnabled": true,
+      "senderId": "HAVEENS"
+    }
+  }
+}
